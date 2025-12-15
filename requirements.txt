@@ -1,0 +1,36 @@
+# Core
+streamlit==1.31.0
+python-dotenv==1.0.1
+
+# GitHub
+gitpython==3.1.41
+
+# Embeddings - Sentence Transformers
+sentence-transformers==2.3.1
+torch==2.1.0
+transformers==4.36.2
+
+# Vector Database
+chromadb==0.4.22
+
+# LLM
+google-generativeai==0.3.2
+
+# Utilities
+tiktoken==0.5.2
+pathspec==0.12.1
+numpy==1.24.3
+
+# ChromaDB dependencies
+chroma-hnswlib==0.7.3
+fastapi>=0.95.2
+uvicorn[standard]>=0.18.3
+pydantic>=1.9.0
+requests>=2.28.0
+tenacity>=8.2.0
+PyYAML>=6.0.0
+overrides>=7.3.1
+importlib-resources>=5.0.0
+posthog>=2.4.0
+typing-inspect>=0.8.0
+build>=0.10.0
